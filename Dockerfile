@@ -1,7 +1,7 @@
 FROM golang:1.13.5
 
-ADD . /go/src/github.com/dmitry-msk777/Connector_1C_Enterprise
-WORKDIR /go/src/github.com/dmitry-msk777/Connector_1C_Enterprise
+ADD . /go/src/github.com/GruzdevD/Connector_1C_Enterprise
+WORKDIR /go/src/github.com/GruzdevD/Connector_1C_Enterprise
 
 RUN go get "github.com/streadway/amqp"
 RUN go get "github.com/gorilla/mux"

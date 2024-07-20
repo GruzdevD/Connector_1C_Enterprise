@@ -15,8 +15,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	connector "github.com/dmitry-msk777/Connector_1C_Enterprise/connector"
-	rootsctuct "github.com/dmitry-msk777/Connector_1C_Enterprise/rootdescription"
+	connector "github.com/GruzdevD/Connector_1C_Enterprise/connector"
+	rootsctuct "github.com/GruzdevD/Connector_1C_Enterprise/rootdescription"
 
 	"encoding/binary"
 	"encoding/json"
@@ -25,7 +25,7 @@ import (
 
 	"github.com/beevik/etree"
 
-	_ "github.com/dmitry-msk777/Connector_1C_Enterprise/docs"
+	_ "github.com/GruzdevD/Connector_1C_Enterprise/docs"
 	httpSwagger "github.com/swaggo/http-swagger" // http-swagger middleware
 )
 
